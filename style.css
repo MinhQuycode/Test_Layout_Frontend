@@ -1,0 +1,150 @@
+.login {
+    position: relative;
+    font-family: "Inter";
+    font-style: normal;
+}
+
+a {
+    color: #0952a3 !important;
+}
+
+.img-background {
+    width: 100%;
+    height: 1026px;
+}
+
+.login-form {
+    position: absolute;
+    width: 502px;
+    height: 794px;
+    left: 62px;
+    top: 114px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.login-form-logo {
+    margin-top: 53px;
+    margin-left: 142px;
+}
+
+form {
+    margin-top: 106px;
+    margin-left: 33.15px;
+    position: relative;
+}
+
+input {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 436.85px;
+    height: 57px;
+    padding-left: 64px;
+    padding-right: 58px;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 14px;
+}
+
+.img-phone {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.img-key {
+    position: absolute;
+    top: 89px;
+    left: 20px;
+}
+
+.img-eye {
+    position: absolute;
+    top: 92px;
+    right: 53px;
+    display: none;
+}
+
+input[type="password"]:focus~.img-eye {
+    display: block;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    margin-right: 13px;
+}
+
+label {
+    margin-bottom: 0 !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+.form-fogetpassword {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #0952a3;
+    margin-top: 27px;
+}
+
+button {
+    width: 436.85px;
+    height: 57px;
+    margin: 0 auto !important;
+}
+
+.btn-login {
+    background: #0952a3;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 14px !important;
+    margin-top: 51px !important;
+}
+
+.btn-register {
+    background: #ffffff;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-sizing: border-box;
+    margin-top: 14px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #808080;
+}
+
+p {
+    width: 437px;
+    margin-top: 14px !important;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
